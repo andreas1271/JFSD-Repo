@@ -10,27 +10,32 @@
 
     <form name="Register Yourself" action="register.jsp" method="post">
         <label for="first_name">First Name:</label>
-        <input type="text" name="fname" id="fname" placeholder="Enter your First Name">
+        <input type="text" name="fname" id="fname" placeholder="Enter your First Name" required>
         <br>
         <br>
 
         <label for="last_name">Last Name:</label>
-        <input type="text" name="lname" id="lname" placeholder="Enter your Last Name">
+        <input type="text" name="lname" id="lname" placeholder="Enter your Last Name" required>
         <br>
         <br>
 
         <label for="birthday">Date of Birth:</label>
-        <input type="date" name="birthday" id="birthdaxy" placeholder="Enter your Day of Birth">
+        <input type="date" name="birthday" id="birthdaxy" placeholder="Enter your Day of Birth" required>
         <br>
         <br>
         
         <label for="email">Email Address:</label>
-        <input type="email" name="email" id="email" placeholder="Enter your Email Address">
+        <input type="email" name="email" id="email" placeholder="Enter your Email Address" required>
         <br>
         <br>
 
         <label for="password">Choose a Password:</label>
-        <input type="password" name="password" id="password" placeholder="Choose a Password">
+        <input type="password" name="password" id="password" placeholder="Choose a Password" required>
+        <br>
+        <br>
+
+        <label for="Mobile Number">Enter your Mobile Number:</label>
+        <input type="mobilenumber" name="mobilenumber" id="mobilenumber" placeholder="Enter your Mobilenumer" required>
         <br>
         <br>
         <input type="submit" value="Register">
