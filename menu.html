@@ -8,7 +8,6 @@
 <body>
 
     <h1>Menu Example</h1>
-
     <form>
     <label for="Colours">Pick your Colour</label>
         <select id="Colours" name="colours">
@@ -21,20 +20,23 @@
     <input type="Submit" value="Choose">
 
     <h1>Radio and Checkbox</h1>
-<!--What the Fuck-->
+    <!--What the Fuck, you found a comment-->
     <form>
-        <input type="checkbox all selected" value="ch1"><label for="ch1">Agree Terms and Conditions</label>
-        <br>
-            <label for="male">Male</label><input>
+        <input type="checkbox" value="ch1"><label for="ch1">Agree Terms and Conditions</label>
+        <br><br>
+        <label for="male">Male</label><input type="radio" name="gender" value="male"><br>
+        <label for="male">Female</label><input type="radio" name="gender" value="female"><br>
+        <label for="male">Other</label><input type="radio" name="gender" value="other"><br>
         <br><br>
     </form>
 
     <form>
-        <input type="checkbox" value="ch1"><label for="ch1">Agree Terms and Conditions</label>
-        <br>
-        <input type="radio" value="ra1"><label for="ra1">All</label>
-        <input type="radio" value="ra2"><label for="ra2">Nothing</label>
-       
+        <input type="checkbox" value="ch1" checked><label for="ch1">Agree Terms and Conditions</label>
+        <br><br>
+        <p>You can choose multiple gender together</p>
+        <label for="male">Male</label><input type="radio" id="gender" value="male"><br>
+        <label for="male">Female</label><input type="radio" id="gender" value="female"><br>
+        <label for="male">Other</label><input type="radio" id="gender" value="other"><br>
     </form>
 </body>
 </html>
